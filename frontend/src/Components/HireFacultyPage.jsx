@@ -76,7 +76,7 @@ export default function HireFacultyPage()
                     </div>
                     <button onClick={async()=>{
                         try {
-                            const response = await fetch("http://localhost:3000/faculty/signin", {
+                            const response = await fetch("https://project-qlmx.vercel.app/faculty/signin", {
                                 method: "POST",
                                 headers: {
                                     "Content-Type": "application/json",
