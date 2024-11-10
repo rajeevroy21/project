@@ -43,7 +43,7 @@ export default function ChatbotDropComponent()
                         
                         <button onClick={async()=>{
                             try {
-                                const response = await fetch("http://localhost:3000/chatbot/chat", {
+                                const response = await fetch("https://project-qlmx.vercel.app/chatbot/chat", {
                                     method: "POST",
                                     headers: {
                                         "Content-Type": "application/json",
